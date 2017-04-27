@@ -16,9 +16,7 @@ Some useful message to send
 
 # reloading page
 ```html
-<script>
-var a=1;
-</script>
+<script> location.reload(); </script>
 ```
 
 # setting counter, send the first code, then after sent send the second
