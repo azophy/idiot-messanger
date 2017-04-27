@@ -9,6 +9,6 @@ if (isset($_POST['text'])) {
 
 ?>
 <form method="post">
-Tulisan : <textarea name="text"><?php echo $data_to_write; ?></textarea>
+Tulisan : <textarea name="text" style="width: 400px; height: 250px;"><?php echo $data_to_write; ?></textarea>
 <button type="submit">submit</button>
 </form>

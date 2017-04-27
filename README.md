@@ -80,7 +80,7 @@ updateClock();
 ```html
 <script>
 // init first
-var distance = 150;
+var distance = 15*60;
 </script>
 preparing countdown
 
