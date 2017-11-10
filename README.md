@@ -27,7 +27,9 @@ Some useful message to send
 var a=1;
 </script>
 persiapan
-//------------
+```
+
+```html
 <script>
 a+=1;
 $('#baaa').text(a.toString().substring(0,5));
