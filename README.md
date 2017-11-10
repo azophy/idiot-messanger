@@ -47,6 +47,7 @@ $('#baaa').text(Math.ceil(a/60).toString().substring(0,5)+ ' Menit ' + Math.ceil
 ```html
 <br/>
 <script type="text/javascript">
+<!--
 ```
 
 ```html
@@ -79,6 +80,7 @@ function updateClock ( )
   // console.log(currentTimeString);
 }
 updateClock();
+// -->
 </script>
 <div id="clock"></div>
 
@@ -91,7 +93,9 @@ updateClock();
 var distance = 15*60;
 </script>
 preparing countdown
+```
 
+```html
 <script type="text/javascript">
 
 function updateCountDown() {
