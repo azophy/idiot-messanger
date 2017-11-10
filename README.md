@@ -47,10 +47,10 @@ $('#baaa').text(Math.ceil(a/60).toString().substring(0,5)+ ' Menit ' + Math.ceil
 ```html
 <br/>
 <script type="text/javascript">
-<!--
 ```
 
 ```html
+//<!--
 function updateClock ( )
 {
   var currentTime = new Date ( );
