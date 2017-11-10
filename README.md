@@ -50,7 +50,6 @@ $('#baaa').text(Math.ceil(a/60).toString().substring(0,5)+ ' Menit ' + Math.ceil
 ```
 
 ```html
-//<!--
 function updateClock ( )
 {
   var currentTime = new Date ( );
@@ -80,7 +79,6 @@ function updateClock ( )
   // console.log(currentTimeString);
 }
 updateClock();
-// -->
 </script>
 <div id="clock"></div>
 
