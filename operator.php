@@ -1,5 +1,5 @@
 <?php
-$file_path= "text.php";
+$file_path= "./text.php";
 
 if (isset($_POST['text'])) {
   $data_to_write = $_POST['text']; 

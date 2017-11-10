@@ -27,12 +27,18 @@ Some useful message to send
 var a=1;
 </script>
 persiapan
-
+//------------
 <script>
 a+=1;
 $('#baaa').text(a.toString().substring(0,5));
 </script>
 <span id="baaa"></span> detik
+//-------------
+<script>
+a+=1;
+$('#baaa').text(Math.ceil(a/60).toString().substring(0,5)+ ' Menit ' + Math.ceil(a%60).toString().substring(0,5) + ' Detik');
+</script>
+<span id="baaa"></span> 
 ```
 
 # display clock
